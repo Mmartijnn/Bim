@@ -5,7 +5,7 @@
   var stage = document.getElementById('bimStage');
   if (!stage) return;
   var supported = window.CSS && CSS.supports && CSS.supports('animation-timeline: scroll()');
-  if (supported || window.matchMedia('(prefers-reduced-motion: reduce)').matches || window.matchMedia('(max-width: 800px)').matches) return;
+  if (supported || window.matchMedia('(prefers-reduced-motion: reduce)').matches || window.matchMedia('(max-width: 800px)').matches || !window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
   var word = stage.querySelector('.bim-word'), phone = stage.querySelector('.bim-phone'), ticking = false;
   function move() {
     ticking = false;
