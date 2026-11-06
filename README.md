@@ -3,7 +3,7 @@
 Een lichte, statische website met drie pagina's, geschikt voor GitHub Pages.
 
 De vormgeving wisselt schermbrede lichte panelen af: wit, lichtblauw en lichtgroen met donkere tekst. Op Home kun je door de foto's bladeren met de pijlen naast de foto.
-
+ 
 ## Pagina's
 
 - `index.html` — Home
