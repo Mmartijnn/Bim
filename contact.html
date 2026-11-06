@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Neem contact op met BIM Consultancy voor vragen, een gesprek of een kennismaking.">
+  <title>Contact | BIM Consultancy</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="logo" href="index.html" aria-label="BIM Consultancy, home"><img src="images/bim-logo.png" alt="BIM Consultancy"></a>
+    <button class="nav-toggle" type="button" aria-label="Menu openen" aria-expanded="false"><span></span></button>
+    <nav class="site-nav" aria-label="Hoofdmenu"><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="diensten-referenties.html">Diensten &amp; referenties</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul></nav>
+  </div></header>
+  <main class="container page-main contact-main">
+    <header class="page-heading"><p class="eyebrow">Contact</p><h1>Goed werk begint met een gesprek.</h1><p class="lead">Heeft u een vraag of wilt u kennismaken? Stuur ons een bericht.</p></header>
+    <section class="contact-layout">
+      <div class="contact-aside"><h2>Even sparren?</h2><p>Vertel kort waar u tegenaan loopt. We nemen graag de tijd om mee te denken over een passende volgende stap.</p><p class="contact-note"><span class="leaf-mark" aria-hidden="true">✳</span> Praktisch, persoonlijk en zonder ingewikkeld gedoe.</p></div>
+      <form class="contact-form" id="contact-form" action="https://formsubmit.co/" method="POST">
+        <input type="hidden" name="_subject" value="Nieuw bericht via BIM Consultancy">
+        <input type="hidden" name="_template" value="table">
+        <input class="honeypot" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="hidden" name="_next" id="form-next" value="">
+        <input type="hidden" name="_url" id="form-url" value="">
+        <label for="name">Naam</label><input id="name" name="name" type="text" autocomplete="name" required>
+        <label for="email">E-mailadres</label><input id="email" name="email" type="email" autocomplete="email" required>
+        <label for="subject">Onderwerp</label><input id="subject" name="subject" type="text" required>
+        <label for="message">Bericht</label><textarea id="message" name="message" rows="5" required></textarea>
+        <button class="btn" type="submit">Verstuur bericht <span aria-hidden="true">→</span></button>
+        <p class="form-hint" id="form-status" role="status" hidden></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-content"><span>© 2026 Bim</span></div></footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
