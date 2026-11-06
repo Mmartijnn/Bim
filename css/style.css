@@ -26,7 +26,7 @@ h1 { font-size: clamp(2.5rem, 5vw, 4.4rem); }
 h2 { font-size: clamp(1.8rem, 3.2vw, 2.7rem); }
 h3 { font-size: 1.22rem; }
 .container { width: min(90%, var(--width)); margin-inline: auto; }
-.site-header { position: sticky; top: 0; z-index: 5; background: rgba(245,246,240,.96); border-bottom: 1px solid var(--line); }
+.site-header { position: sticky; top: 0; z-index: 5; background: rgba(245,246,240,.91); border-bottom: 1px solid var(--line); }
 .nav-wrap { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .logo img { width: auto; height: 47px; }
 .site-nav ul { display: flex; align-items: center; gap: 10px; margin: 0; padding: 0; list-style: none; }
